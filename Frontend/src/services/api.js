@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Base URL for backend API - use environment variable or default to localhost
-const API_BASE_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? '/expense-tracker-api' : 'http://localhost:8086/expense-tracker-api')
+const API_BASE_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? '/expense-tracker-api' : 'http://localhost:9090/ExpenseTrackerApplication/expense-tracker')
 
 // Debug logging for API URL
 console.log('API Base URL:', API_BASE_URL)
